@@ -39,7 +39,7 @@ API文档地址：**https://docs.qq.com/doc/DZnVlU3BJRWR2aG9H**
 
 ----------
 
-## 1. 项目配置
+## 项目配置
 
 1. application.properties:
    1. server.port = 8867(设置项目运行的端口)
@@ -47,7 +47,7 @@ API文档地址：**https://docs.qq.com/doc/DZnVlU3BJRWR2aG9H**
 2. cn\noahcode\yww\utils\UrlUtil.java:
    1. private final static String ENCODE = "UTF-8";(url编码与转码的格式，要与设置中的请求一致)
 
-## 2. 事件类型(RequestTypeEnum)
+## 事件类型(RequestTypeEnum)
 
 |    名称    |   事件名   | 事件ID |
 | :--------: | :--------: | :----: |
@@ -62,7 +62,7 @@ API文档地址：**https://docs.qq.com/doc/DZnVlU3BJRWR2aG9H**
 | 公众号消息 |   PUBLIC   |   40   |
 |  回调消息  |    SEND    |   30   |
 
-## 3. 消息类型(MsgTypeEnum)
+## 消息类型(MsgTypeEnum)
 
 |   名称   |     类型     | 类型ID |
 | :------: | :----------: | :----: |
@@ -77,7 +77,7 @@ API文档地址：**https://docs.qq.com/doc/DZnVlU3BJRWR2aG9H**
 | 视频对话 | CONVERSATION |   53   |
 | 系统消息 |    SYSTEM    | 10000  |
 
-## 4. 来源类型(SourceTypeEnum)
+## 来源类型(SourceTypeEnum)
 
 |      名称      |      类型      | 类型ID |
 | :------------: | :------------: | :----: |
@@ -94,7 +94,7 @@ API文档地址：**https://docs.qq.com/doc/DZnVlU3BJRWR2aG9H**
 |     漂流瓶     |     BOTTLE     |   25   |
 |     二维码     |       QR       |   30   |
 
-## 5. 接口方法列表
+## 接口方法列表
 
 详细参数参考api文件:**cn\noahcode\yww\sdk\API.java**
 
